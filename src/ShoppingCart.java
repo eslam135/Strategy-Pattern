@@ -1,4 +1,3 @@
-// Context class that uses the strategy
 class ShoppingCart {
     private PaymentStrategy paymentStrategy;
 

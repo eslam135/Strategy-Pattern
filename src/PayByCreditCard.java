@@ -1,4 +1,3 @@
-// Implement different strategies
 class PayByCreditCard implements PaymentStrategy {
     private String cardNumber;
     private String expirationDate;
@@ -12,6 +11,5 @@ class PayByCreditCard implements PaymentStrategy {
 
     public void pay(int amount) {
         System.out.println("Paying $" + amount + " with credit card: " + cardNumber);
-        // Perform the payment logic
     }
 }

@@ -9,6 +9,5 @@ class PayByPayPal implements PaymentStrategy {
 
     public void pay(int amount) {
         System.out.println("Paying $" + amount + " with PayPal: " + email);
-        // Perform the payment logic
     }
 }
