@@ -13,6 +13,5 @@ public class Main {
         cart.setPaymentStrategy(new PayByPayPal("example@example.com", "password"));
 
         // Checkout with the new payment strategy
-        cart.checkout(200);
     }
 }
