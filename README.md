@@ -27,12 +27,12 @@ In the methods of the context class where the interchangeable behavior needs to 
 
               +----------------+                 +-----------------+
               |  ShoppingCart  |                 | PaymentStrategy |
-       +------|----------------|<>---------------|-----------------|
-       |      |-paymentStrategy|                 |    +pay()       |
-       |      |                |                 +-----------------+
-       |      |+setPaymentStrategy()|                 /_\
-       |      |+checkout()     |                       |
-       +------+----------------+                       |
+              |----------------|<>---------------|-----------------|
+              |-paymentStrategy|                 |    +pay()       |
+              |                |                 +-----------------+
+              |+setPaymentStrategy()|                 /_\
+              |+checkout()     |                       |
+              +-----------------+                      |
                                                        |
                                                        |
        +----------------------+             +------------------------+
