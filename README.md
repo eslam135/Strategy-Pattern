@@ -44,3 +44,5 @@ In the methods of the context class where the interchangeable behavior needs to 
        +----------------------+             | +pay()                  |
        | +pay()               |             +------------------------+
        +----------------------+
+# <span style = "color:pink" > Next Patter: 
+https://github.com/eslam135/Observer-Pattern
