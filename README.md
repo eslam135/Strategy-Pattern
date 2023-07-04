@@ -25,8 +25,8 @@ The context class is the class that contains the object whose behavior needs to 
 ### <span style="color:lightgrey"> 5- Delegate behavior to the strategy object: 
 In the methods of the context class where the interchangeable behavior needs to be executed, delegate the execution to the strategy object. The strategy object will handle the specific implementation of the behavior. In the ShoppingCart class, the checkout() method delegates the payment logic to the current payment strategy.
 
-       +----------------+                 +-----------------+
-       |  ShoppingCart  |                 | PaymentStrategy |
+              +----------------+                 +-----------------+
+              |  ShoppingCart  |                 | PaymentStrategy |
        +------|----------------|<>---------------|-----------------|
        |      |-paymentStrategy|                 |    +pay()       |
        |      |                |                 +-----------------+
