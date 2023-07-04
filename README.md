@@ -27,20 +27,20 @@ In the methods of the context class where the interchangeable behavior needs to 
 
        +----------------+                 +-----------------+
        |  ShoppingCart  |                 | PaymentStrategy |
-+------|----------------|<>---------------|-----------------|
-|      |-paymentStrategy|                 |    +pay()       |
-|      |                |                 +-----------------+
-|      |+setPaymentStrategy()|                 /_\
-|      |+checkout()     |                       |
-+------+----------------+                       |
-                                                |
-                                                |
-+----------------------+             +------------------------+
-|   PayByCreditCard    |             |     PayByPayPal         |
-+----------------------+             +------------------------+
-| -cardNumber: String  |             | -email: String          |
-| -expirationDate: String |          | -password: String       |
-| -cvv: String         |             +------------------------+
-+----------------------+             | +pay()                  |
-| +pay()               |             +------------------------+
-+----------------------+
+       +------|----------------|<>---------------|-----------------|
+       |      |-paymentStrategy|                 |    +pay()       |
+       |      |                |                 +-----------------+
+       |      |+setPaymentStrategy()|                 /_\
+       |      |+checkout()     |                       |
+       +------+----------------+                       |
+                                                       |
+                                                       |
+       +----------------------+             +------------------------+
+       |   PayByCreditCard    |             |     PayByPayPal         |
+       +----------------------+             +------------------------+
+       | -cardNumber: String  |             | -email: String          |
+       | -expirationDate: String |          | -password: String       |
+       | -cvv: String         |             +------------------------+
+       +----------------------+             | +pay()                  |
+       | +pay()               |             +------------------------+
+       +----------------------+
