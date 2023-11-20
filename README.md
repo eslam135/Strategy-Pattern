@@ -2,11 +2,11 @@
 
 ## <span style = "color:pink" >What is Strategy Patterns? </span>
 
-### <span style="color:lightgrey">The strategy patter is a behavioral design pattern that defines a family of algorithms, encapsulate them makingthem interchangeable within a context object and varying them from the client.</span>
+### <span style="color:lightgrey">The strategy patter is a behavioral design pattern that defines a family of algorithms, encapsulate them making them interchangeable within a context object and varying them from the client.</span>
 
 ## <span style = "color:pink" >Why is it used?</span> 
 
-### <span style="color:lightgrey"> It is usually used in Java and other OOP based languages to byPass a problem with the inheritance hierarchy where behaviours can only be shared vertically not horizontally, so if a child wants to have the same behaviour as another parent which is different from the parent's base behaviour code will have to be copy and pasted multiple times to allow this to happen
+### <span style="color:lightgrey"> It is usually used in Java and other OOP based languages to byPass a problem with the inheritance hierarchy where behaviours can only be shared vertically not horizontally, so if a child wants to have the same behaviour as another parent which is different from the parent's base behaviour code will have to be copied and pasted multiple times to allow this to happen
 
 ## <span style = "color:pink" > How does it work?
 
